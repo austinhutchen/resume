@@ -1,2 +1,2 @@
-js-beautify --type html resume.html
-
+#!/bin/bash
+js-beautify resume.html -o beautified_resume.html
