@@ -4,25 +4,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Software and Embedded Systems Engineer</title>
+    <title>Austin Hutchen - Software and Embedded Systems Engineer</title>
     <style>
         body {
             display: grid;
             grid-auto-flow: row;
-            grid-template-rows: 1fr;
+            grid-template-rows: auto;
             align-content: center;
             justify-items: center;
             font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
         }
 
         .header {
             text-align: center;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
         }
 
         .contact-info {
             font-family: Tahoma, sans-serif;
             font-weight: bold;
+        }
+
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 10px;
+        }
+
+        h1 {
+            color: grey;
+        }
+
+        .experience {
+            margin-top: 30px;
+        }
+
+        .experience h3 {
+            margin-bottom: 5px;
+        }
+
+        .experience p {
+            margin-bottom: 10px;
+        }
+
+        .skills {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        a {
+            color: #0000EE;
+            text-decoration: none;
         }
     </style>
 </head>
@@ -35,10 +69,70 @@
         <p>Website: <u><a href="http://austinhutchen.github.io/austinscode" target="_blank">http://austinhutchen.github.io/austinscode</a></u></p>
     </div>
 
-    <div>
-        <h4>Hello world</h4>
-        <h4>Hello world</h4>
-        <h4>Hello World</h4>
+    <div class="content">
+        <div class="experience">
+            <h2>Experience</h2>
+
+            <h3>Software Engineer Intern - FormFactor Inc.</h3>
+            <p><strong>May 2024 - Aug 2024 · 4 months</strong></p>
+            <p><em>Boulder, Colorado, United States · On-site</em></p>
+            <p>
+                Personally developed a ModBus ASCII/RTU Library with a simulator and numerous tests using C#.
+                Also created a driver to interface over an RS-485 TCP server with an embedded temperature
+                controller (MOXA CND3). Collaborated with the FormFactor Cryo Boulder team to develop
+                FormFactor's IQ3000 Spin-Qubit quantum computer system, adhering to an AGILE schedule.
+            </p>
+            <div class="skills">
+                Skills: Software Infrastructure, Algorithms, SAS (Software), Serial ATA (SATA), Failure Analysis, Software Design, NuGet, Documentation, Engineering, C#, Problem Solving, Assembly Language
+            </div>
+
+            <h3>Contract Software Engineer - Self-Employed</h3>
+            <p><strong>Mar 2024 - May 2024 · 3 months</strong></p>
+            <p><em>Los Angeles County, California, United States · Hybrid</em></p>
+            <p>
+                Developed several modern e-commerce websites with Stripe payment integration using bare HTML,
+                CSS, and TypeScript, aiming to replicate Wordpress sites.
+            </p>
+            <div class="skills">
+                Skills: Software Infrastructure, Contract Hire, Engineering, C#
+            </div>
+
+            <h3>Open Source Developer - GitHub</h3>
+            <p><strong>Dec 2020 - Apr 2024 · 3 years 5 months</strong></p>
+            <p><em>United States · Hybrid</em></p>
+            <p>
+                Contributed to Twitter (now X) by optimizing IEE floating point vectorization, improving
+                build and runtime efficiency. Engaged in various embedded projects like a ChatGPT clone
+                for debugging, an ESP32 plant waterer, WIFI LED wall, and more. View projects at
+                <a href="https://github.com/austinhutchen" target="_blank">github.com/austinhutchen</a>.
+            </p>
+            <div class="skills">
+                Skills: Software Infrastructure, Code Review, OSC, Internet Software, Engineering, Methodology, Learning, Open-Source Software
+            </div>
+
+            <h3>Calculus 2 Learning Assistant - University of Colorado Boulder</h3>
+            <p><strong>Jan 2023 - May 2023 · 5 months</strong></p>
+            <p><em>United States · On-site</em></p>
+            <p>
+                Supported faculty by assisting students in APPLIED and MATH Calculus 2. Conducted weekly
+                office hours and provided guidance throughout the semester.
+            </p>
+            <div class="skills">
+                Skills: Leadership, Teaching, Mathematics Education, Computer Literacy, Applied Mathematics, Skill Development, Web Applications, Communication
+            </div>
+
+            <h3>Digital Marketing Consultant - Mobius Materials</h3>
+            <p><strong>May 2021 - Aug 2021 · 4 months</strong></p>
+            <p><em>Remote</em></p>
+            <p>
+                Executed strategic email marketing campaigns, analyzed analytics data, and developed
+                content marketing strategies to boost brand visibility. Managed Google Ads campaigns,
+                social media presence, and implemented SEO techniques.
+            </p>
+            <div class="skills">
+                Skills: Teamwork, Code Review, Computer Literacy, Marketing, Skill Development, Software Development, Problem Solving, Project Management, Communication
+            </div>
+        </div>
     </div>
 </body>
 
