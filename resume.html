@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Austin Hutchen - Software and Embedded Systems Engineer</title>
     <style>
+        /* Background with a smooth gradient for professionalism */
         body {
             display: grid;
             grid-auto-flow: row;
@@ -14,62 +16,79 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 20px;
-            background-color: #f5f5f5; /* Light grey background for professional feel */
+            background: linear-gradient(135deg, #e0f7fa, #eceff1);
         }
+
+        /* Header styles */
         .header {
             text-align: center;
-            margin-bottom: 2vh;
+            margin-bottom: 30px;
+            padding: 20px;
+            border-radius: 25px;
+            background-color: white;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
         }
+
+        /* Contact information with a bolder look */
         .contact-info {
             font-family: Tahoma, sans-serif;
             font-weight: bold;
+            color: #00796b;
         }
+
+        /* Content and experience sections */
         .content {
-            max-width: 80vw;
+            max-width: 900px;
             margin: 0 auto;
-            padding: 2vw;
-            background-color: #ffffff;
-            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
+            padding: 20px;
+            border-radius: 20px;
+            background-color: white;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
         }
-        h1 {
-            color: #333; /* Dark grey for a professional look */
-            font-size: 4vw;
-        }
-        h2 {
-            font-size: 3vw;
-            margin-top: 2vh;
-            color: #444;
-        }
-        h3 {
-            color: #555;
-            font-size: 2.5vw;
-            margin-bottom: 1vh;
-        }
-        p {
-            font-size: 1.8vw;
-            line-height: 1.6;
-            color: #666;
-        }
+
+        /* Experience entries with a distinct look */
         .experience {
-            margin-top: 4vh;
+            margin-top: 30px;
         }
+
+        .experience h3 {
+            margin-bottom: 5px;
+            color: #00838f;
+        }
+
+        .experience p {
+            margin-bottom: 10px;
+        }
+
+        /* Skills section with a rounded background */
         .skills {
-            margin-top: 1vh;
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 15px;
+            background-color: #e0f2f1;
             font-weight: bold;
-            font-size: 1.5vw;
-            color: #777;
         }
+
+        /* Headings with subtle grey color */
+        h1, h2 {
+            color: #616161;
+        }
+
+        /* Links styled to stand out */
         a {
-            color: #007BFF; /* Bootstrap primary color for links */
+            color: #00695c;
             text-decoration: none;
-            transition: color 0.3s ease;
+            border-bottom: 2px solid transparent;
+            transition: border-bottom-color 0.3s;
         }
+
+        /* Link hover effect */
         a:hover {
-            color: #0056b3; /* Darker shade for hover effect */
+            border-bottom-color: #004d40;
         }
     </style>
 </head>
+
 <body>
     <div class="header">
         <h1>Software and Embedded Systems Engineer</h1>
@@ -81,104 +100,59 @@
     <div class="content">
         <div class="experience">
             <h2>Experience</h2>
-            
-            <h3>Backend Software Engineer Intern - FormFactor Inc.</h3>
-            <p><strong>May 2024 - Aug 2024 · 4 months</strong></p>
-            <p><em>Boulder, Colorado, United States · On-site</em></p>
-            <p>
-                Built an RS232 C# NuGet library for ModBus ASCII/RTU drivers and simulators for quantum 
-                computing instruments at FormFactor. Drafted engineering decisions for near-zero Kelvin operations.
-            </p>
-            <div class="skills">
-                Skills: Software Infrastructure, Algorithms, C#, Engineering, RS232, Quantum Computing
-            </div>
-            
+
             <h3>Software Engineer Intern - FormFactor Inc.</h3>
             <p><strong>May 2024 - Aug 2024 · 4 months</strong></p>
             <p><em>Boulder, Colorado, United States · On-site</em></p>
             <p>
-                Developed a ModBus ASCII/RTU Library with a simulator and numerous tests using C#. 
-                Created a driver to interface over an RS-485 TCP server with an embedded temperature 
-                controller (MOXA CND3). Collaborated with the FormFactor Cryo Boulder team to develop 
-                FormFactor's IQ3000 Spin-Qubit quantum computer system, adhering to an AGILE schedule.
+                Built an RS232 C# NuGet library for ModBus ASCII/RTU drivers and simulators for quantum computing instruments. Drafted engineering decisions for near-zero Kelvin operations.
             </p>
             <div class="skills">
-                Skills: Software Infrastructure, SAS (Software), Serial ATA (SATA), Failure Analysis, 
-                Software Design, Documentation, Engineering, Problem Solving, Assembly Language
-            </div>
-            
-            <h3>Calculus 2 Course Assistant - University of Colorado Boulder</h3>
-            <p><strong>Jan 2023 - May 2023 · 5 months</strong></p>
-            <p><em>Boulder, Colorado, United States · On-site</em></p>
-            <p>
-                Taught and assisted with Calculus 2 (MATH 2300), held office hours weekly, and received 
-                97% positive feedback from 63 students.
-            </p>
-            <div class="skills">
-                Skills: Leadership, Teaching, Mathematics Education, Communication, Applied Mathematics
+                Skills: Software Infrastructure, Algorithms, SAS (Software), Serial ATA (SATA), Failure Analysis, Software Design, NuGet, Documentation, Engineering, C#, Problem Solving, Assembly Language
             </div>
 
-            <h3>Marketing Consultant - Mobius Materials</h3>
-            <p><strong>May 2021 - Aug 2021 · 4 months</strong></p>
-            <p><em>Remote</em></p>
+            <h3>Contract Software Engineer - Self-Employed</h3>
+            <p><strong>Mar 2024 - May 2024 · 3 months</strong></p>
+            <p><em>Los Angeles County, California, United States · Hybrid</em></p>
             <p>
-                Made the first company sale and collaborated with engineers to meet targets. Authored 
-                research articles on e-waste, including this piece.
+                Developed several modern e-commerce websites with Stripe payment integration using bare HTML, CSS, and TypeScript, replicating Wordpress sites.
             </p>
             <div class="skills">
-                Skills: Teamwork, Marketing, Communication, SEO, Content Marketing
-            </div>
-
-            <h3>Electronics Repairs & Reseller - eBay</h3>
-            <p><strong>May 2018 - Present</strong></p>
-            <p><em>Remote</em></p>
-            <p>
-                Sold and repaired Apple, Linux, and Windows devices, completing over 50 sales with 
-                100% positive feedback. View my account 
-                <a href="https://www.ebay.com" target="_blank">here</a>.
-            </p>
-            <div class="skills">
-                Skills: Electronics Repair, E-Commerce, Customer Service, Computer Hardware
+                Skills: Software Infrastructure, Contract Hire, Engineering, C#
             </div>
 
             <h3>Open Source Developer - GitHub</h3>
-            <p><strong>May 2022 - Present</strong></p>
+            <p><strong>Dec 2020 - Apr 2024 · 3 years 5 months</strong></p>
             <p><em>United States · Hybrid</em></p>
             <p>
-                Contributed to open-source projects, including many of my own IoT devices and X algorithm 
-                optimization. See my work 
-                <a href="https://github.com/austinhutchen" target="_blank">here</a>.
+                Contributed to Twitter (now X) by optimizing IEE floating point vectorization, improving efficiency. Created IoT devices like ChatGPT clones, plant waterers, and LED walls. Projects at 
+                <a href="https://github.com/austinhutchen" target="_blank">github.com/austinhutchen</a>.
             </p>
             <div class="skills">
-                Skills: Software Infrastructure, Internet Software, Engineering, Methodology, Open-Source Software
+                Skills: Software Infrastructure, Code Review, OSC, Internet Software, Engineering, Methodology, Open-Source Software
             </div>
-        </div>
 
-        <div class="experience">
-            <h2>Open Source Contributions & Volunteer Work</h2>
-            
-            <h3>Twitter Algorithm Optimizations</h3>
+            <h3>Calculus 2 Learning Assistant - University of Colorado Boulder</h3>
+            <p><strong>Jan 2023 - May 2023 · 5 months</strong></p>
+            <p><em>United States · On-site</em></p>
             <p>
-                Optimized the X algorithm for floating-point parallelism, enhancing computational efficiency.
+                Supported faculty in Calculus 2 (MATH 2300), holding weekly office hours and guiding students.
             </p>
+            <div class="skills">
+                Skills: Leadership, Teaching, Mathematics Education, Applied Mathematics, Web Applications, Communication
+            </div>
 
-            <h3>Garden School Foundation</h3>
+            <h3>Digital Marketing Consultant - Mobius Materials</h3>
+            <p><strong>May 2021 - Aug 2021 · 4 months</strong></p>
+            <p><em>Remote</em></p>
             <p>
-                Volunteered to build a community garden at Wilshire Crest Elementary for underrepresented groups.
+                Executed email marketing, analyzed analytics, and developed content strategies to enhance brand visibility.
             </p>
-
-            <h3>GitHub Contributions</h3>
-            <p>
-                View my GitHub streak stats 
-                <a href="https://github.com/austinhutchen" target="_blank">here</a>.
-            </p>
-
-            <h3>LeetCode Solutions</h3>
-            <p>
-                Check out my LeetCode solutions 
-                <a href="https://leetcode.com" target="_blank">here</a>.
-            </p>
+            <div class="skills">
+                Skills: Teamwork, Marketing, Software Development, Project Management, Communication
+            </div>
         </div>
     </div>
 </body>
+
 </html>
