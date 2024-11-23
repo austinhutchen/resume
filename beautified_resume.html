@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Austin Hutchen - Software and Embedded Systems Engineer</title>
     <style>
-        /* Background with a dreamy gradient inspired by Kingdom Hearts */
+        /* Background with a soft gradient */
         body {
             display: grid;
             grid-auto-flow: row;
@@ -15,70 +15,72 @@
             justify-items: center;
             font-family: 'Verdana', sans-serif;
             margin: 0;
-            padding: 20px;
+            padding: 2rem;
             background: linear-gradient(135deg, #f0faff, #dfe6f5);
             color: #2e2e2e;
         }
 
-        /* Header styles with rounded corners and shadow */
+        /* Header styles with rounded corners and subtle shadow */
         .header {
-            font-family: 'arial';
             text-align: center;
-            margin-bottom: 25px;
-            padding: 20px 30px;
-            border-radius: 30px;
+            margin-bottom: 2rem;
+            padding: 1.5rem 2rem;
+            border-radius: 1.5rem;
             background-color: rgba(255, 255, 255, 0.9);
             box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
         }
 
-        /* Contact information with a softer color palette */
+        /* Contact information with a clearer color scheme */
         .contact-info {
             font-family: 'Trebuchet MS', sans-serif;
             font-weight: bold;
             color: #336b87;
+            margin: 0.5rem 0;
         }
 
-        /* Content container with rounded corners and soft shadow */
+        /* Content container with rounded corners and light shadow */
         .content {
             max-width: 850px;
             margin: 0 auto;
-            padding: 25px 20px;
-            border-radius: 25px;
+            padding: 1.5rem;
+            border-radius: 1.5rem;
             background-color: rgba(255, 255, 255, 0.95);
             box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.1);
         }
 
         /* Experience section with subtle borders and spacing */
         .experience {
-            margin-top: 20px;
+            margin-top: 1.5rem;
         }
 
         .experience h3 {
-            margin-bottom: 8px;
+            margin-bottom: 0.5rem;
             color: #3a7ca5;
         }
 
         .experience p {
-            margin-bottom: 12px;
+            margin-bottom: 1rem;
+            line-height: 1.5;
         }
 
-        /* Skills section with a distinct, gentle background */
+        /* Skills section with a distinct, soft background */
         .skills {
-            margin-top: 15px;
-            padding: 12px 15px;
-            border-radius: 20px;
+            margin-top: 1rem;
+            padding: 1rem;
+            border-radius: 1.25rem;
             background-color: #e1f5fe;
             font-weight: bold;
             color: #455a64;
         }
 
-        /* Headings with a magical touch */
+        /* Headings with a professional tone */
         h1,
         h2 {
             color: #37474f;
+            margin-bottom: 0.5rem;
         }
 
-        /* Stylish link styles */
+        /* Stylish and accessible link styles */
         a {
             color: #0277bd;
             text-decoration: none;
@@ -86,7 +88,7 @@
             transition: border-bottom-color 0.3s, color 0.3s;
         }
 
-        /* Hover effect with a slight glow */
+        /* Hover effect with a clear visual change */
         a:hover {
             border-bottom-color: #01579b;
             color: #01579b;
@@ -95,69 +97,79 @@
 </head>
 
 <body>
-    <div class="header">
+    <header class="header">
         <h1>Software and Embedded Systems Engineer</h1>
         <h2 class="contact-info">Austin Hutchen</h2>
-        <h3>hutchencodes@gmail.com</h3>
-        <p>Website: <u><a href="http://austinhutchen.github.io/austinscode" target="_blank">http://austinhutchen.github.io/austinscode</a></u></p>
-    </div>
+        <p class="contact-info">Email: hutchencodes@gmail.com</p>
+        <p>Website: <a href="http://austinhutchen.github.io/austinscode" target="_blank">austinhutchen.github.io/austinscode</a></p>
+    </header>
 
-    <div class="content">
-        <div class="experience">
+    <main class="content">
+        <section class="experience">
             <h2>Experience</h2>
 
-            <h3>Software Engineer Intern - FormFactor Inc.</h3>
-            <p><strong>May 2024 - Aug 2024 · 4 months</strong></p>
-            <p><em>Boulder, Colorado, United States · On-site</em></p>
-            <p>
-                Built an RS232 C# NuGet library for ModBus ASCII/RTU drivers and simulators for quantum computing instruments. Drafted engineering decisions for near-zero Kelvin operations.
-            </p>
-            <div class="skills">
-                Skills: Software Infrastructure, Algorithms, SAS (Software), Serial ATA (SATA), Failure Analysis, Software Design, NuGet, Documentation, Engineering, C#, Problem Solving, Assembly Language
+            <div>
+                <h3>Software Engineer Intern - FormFactor Inc.</h3>
+                <p><strong>May 2024 - Aug 2024 · 4 months</strong></p>
+                <p><em>Boulder, Colorado, United States · On-site</em></p>
+                <p>
+                    Developed an RS232 C# NuGet library for ModBus ASCII/RTU drivers and simulators for quantum computing instruments. Assisted in drafting engineering decisions for near-zero Kelvin operations.
+                </p>
+                <div class="skills">
+                    Skills: Software Infrastructure, Algorithms, SAS (Software), Serial ATA (SATA), Failure Analysis, Software Design, NuGet, Documentation, Engineering, C#, Problem Solving, Assembly Language
+                </div>
             </div>
 
-            <h3>Contract Software Engineer - Self-Employed</h3>
-            <p><strong>Mar 2024 - May 2024 · 3 months</strong></p>
-            <p><em>Los Angeles County, California, United States · Hybrid</em></p>
-            <p>
-                Developed several modern e-commerce websites with Stripe payment integration using bare HTML, CSS, and TypeScript, replicating Wordpress sites.
-            </p>
-            <div class="skills">
-                Skills: Software Infrastructure, Contract Hire, Engineering, C#
+            <div>
+                <h3>Contract Software Engineer - Self-Employed</h3>
+                <p><strong>Mar 2024 - May 2024 · 3 months</strong></p>
+                <p><em>Los Angeles County, California, United States · Hybrid</em></p>
+                <p>
+                    Created multiple modern e-commerce websites with Stripe payment integration, utilizing pure HTML, CSS, and TypeScript to replicate complex WordPress sites.
+                </p>
+                <div class="skills">
+                    Skills: Software Infrastructure, Contract Hire, Engineering, C#
+                </div>
             </div>
 
-            <h3>Open Source Developer - GitHub</h3>
-            <p><strong>Dec 2020 - Apr 2024 · 3 years 5 months</strong></p>
-            <p><em>United States · Hybrid</em></p>
-            <p>
-                Contributed to Twitter (now X) by optimizing IEE floating point vectorization, improving efficiency. Created IoT devices like ChatGPT clones, plant waterers, and LED walls. Projects at
-                <a href="https://github.com/austinhutchen" target="_blank">github.com/austinhutchen</a>.
-            </p>
-            <div class="skills">
-                Skills: Software Infrastructure, Code Review, OSC, Internet Software, Engineering, Methodology, Open-Source Software
+            <div>
+                <h3>Open Source Developer - GitHub</h3>
+                <p><strong>Dec 2020 - Apr 2024 · 3 years 5 months</strong></p>
+                <p><em>United States · Hybrid</em></p>
+                <p>
+                    Contributed to optimization projects for Twitter (now X) by enhancing IEE floating-point vectorization. Developed IoT projects, including ChatGPT clones, automated plant waterers, and LED displays. See projects at
+                    <a href="https://github.com/austinhutchen" target="_blank">github.com/austinhutchen</a>.
+                </p>
+                <div class="skills">
+                    Skills: Software Infrastructure, Code Review, OSC, Internet Software, Engineering, Methodology, Open-Source Software
+                </div>
             </div>
 
-            <h3>Calculus 2 Learning Assistant - University of Colorado Boulder</h3>
-            <p><strong>Jan 2023 - May 2023 · 5 months</strong></p>
-            <p><em>United States · On-site</em></p>
-            <p>
-                Supported faculty in Calculus 2 (MATH 2300), holding weekly office hours and guiding students.
-            </p>
-            <div class="skills">
-                Skills: Leadership, Teaching, Mathematics Education, Applied Mathematics, Web Applications, Communication
+            <div>
+                <h3>Calculus 2 Learning Assistant - University of Colorado Boulder</h3>
+                <p><strong>Jan 2023 - May 2023 · 5 months</strong></p>
+                <p><em>United States · On-site</em></p>
+                <p>
+                    Assisted in teaching Calculus 2 (MATH 2300) by hosting weekly office hours and guiding students through complex mathematical concepts.
+                </p>
+                <div class="skills">
+                    Skills: Leadership, Teaching, Mathematics Education, Applied Mathematics, Web Applications, Communication
+                </div>
             </div>
 
-            <h3>Digital Marketing Consultant - Mobius Materials</h3>
-            <p><strong>May 2021 - Aug 2021 · 4 months</strong></p>
-            <p><em>Remote</em></p>
-            <p>
-                Executed email marketing, analyzed analytics, and developed content strategies to enhance brand visibility.
-            </p>
-            <div class="skills">
-                Skills: Teamwork, Marketing, Software Development, Project Management, Communication
+            <div>
+                <h3>Digital Marketing Consultant - Mobius Materials</h3>
+                <p><strong>May 2021 - Aug 2021 · 4 months</strong></p>
+                <p><em>Remote</em></p>
+                <p>
+                    Managed email marketing campaigns, analyzed web analytics, and developed strategies to increase brand awareness.
+                </p>
+                <div class="skills">
+                    Skills: Teamwork, Marketing, Software Development, Project Management, Communication
+                </div>
             </div>
-        </div>
-    </div>
+        </section>
+    </main>
 </body>
 
 </html>
