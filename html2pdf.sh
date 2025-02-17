@@ -1,5 +1,5 @@
 #!/bin/bash
-bash /Users/austinhutchen/proDocs/beautify.sh
+bash /Users/austinhutchen/code/resumeDocs/beautify.sh
 # Path to the input HTML file
 HTML_FILE="beautified_resume.html"  # Change this to your HTML file path
 
